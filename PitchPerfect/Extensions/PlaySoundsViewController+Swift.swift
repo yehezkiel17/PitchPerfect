@@ -43,9 +43,9 @@ extension PlaySoundsViewController: AVAudioPlayerDelegate {
 	}
 
 	func playSound(rate: Float? = nil,
-                   pitch: Float? = nil,
-                   echo: Bool = false,
-                   reverb: Bool = false) {
+				   pitch: Float? = nil,
+				   echo: Bool = false,
+				   reverb: Bool = false) {
 
 		// initialize audio engine components
 		audioEngine = AVAudioEngine()
@@ -108,7 +108,7 @@ extension PlaySoundsViewController: AVAudioPlayerDelegate {
 			self.stopTimer = Timer(timeInterval: delayInSeconds, target: self,
                                    selector: #selector(PlaySoundsViewController.stopAudio),
                                    userInfo: nil, repeats: false)
-			RunLoop.main.add(self.stopTimer!, forMode: RunLoopMode.defaultRunLoopMode)
+			RunLoop.main.add(self.stopTimer!, forMode: RunLoop.Mode.default)
 		}
 
 		do {
