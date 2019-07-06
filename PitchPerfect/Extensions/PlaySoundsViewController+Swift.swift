@@ -89,12 +89,15 @@ extension PlaySoundsViewController: AVAudioPlayerDelegate {
 
 			var delayInSeconds: Double = 0
 
-			if let lastRenderTime = self.audioPlayerNode.lastRenderTime, let playerTime = self.audioPlayerNode.playerTime(forNodeTime: lastRenderTime) {
+			if let lastRenderTime = self.audioPlayerNode.lastRenderTime,
+                let playerTime = self.audioPlayerNode.playerTime(forNodeTime: lastRenderTime) {
 
 				if let rate = rate {
-					delayInSeconds = Double(self.audioFile.length - playerTime.sampleTime) / Double(self.audioFile.processingFormat.sampleRate) / Double(rate)
+					delayInSeconds = Double(self.audioFile.length - playerTime.sampleTime) /
+                        Double(self.audioFile.processingFormat.sampleRate) / Double(rate)
 				} else {
-					delayInSeconds = Double(self.audioFile.length - playerTime.sampleTime) / Double(self.audioFile.processingFormat.sampleRate)
+					delayInSeconds = Double(self.audioFile.length - playerTime.sampleTime) /
+                        Double(self.audioFile.processingFormat.sampleRate)
 				}
 			}
 
@@ -135,15 +138,15 @@ extension PlaySoundsViewController: AVAudioPlayerDelegate {
 	// MARK: Connect List of Audio Nodes
 
 	func connectAudioNodes(_ nodes: AVAudioNode...) {
-		for x in 0..<nodes.count-1 {
-			audioEngine.connect(nodes[x], to: nodes[x+1], format: audioFile.processingFormat)
+		for index in 0..<nodes.count-1 {
+			audioEngine.connect(nodes[index], to: nodes[index+1], format: audioFile.processingFormat)
 		}
 	}
 
 	// MARK: UI Functions
 
 	func configureUI(_ playState: PlayingState) {
-		switch(playState) {
+		switch playState {
 		case .playing:
 			setPlayButtonsEnabled(false)
 			stopButton.isEnabled = true

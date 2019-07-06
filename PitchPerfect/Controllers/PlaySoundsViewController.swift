@@ -11,9 +11,9 @@ import AVFoundation
 
 public class PlaySoundsViewController: UIViewController {
 	// MARK: Properties
-	var recordedAudioURL:URL!
-	var audioFile:AVAudioFile!
-	var audioEngine:AVAudioEngine!
+	var recordedAudioURL: URL!
+	var audioFile: AVAudioFile!
+	var audioEngine: AVAudioEngine!
 	var audioPlayerNode: AVAudioPlayerNode!
 	var stopTimer: Timer!
 

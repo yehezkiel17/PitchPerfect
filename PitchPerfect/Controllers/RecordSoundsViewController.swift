@@ -23,15 +23,15 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
 	@IBAction func recordButtonAction(_ sender: UIButton) {
 		configureUI(isRecording: true)
 
-		let dirPath = NSSearchPathForDirectoriesInDomains(.documentDirectory,.userDomainMask, true)[0] as String
+		let dirPath = NSSearchPathForDirectoriesInDomains(.documentDirectory,.userDomainMask,true)[0] as String
 		let recordingName = "recordedAudio.wav"
 		let pathArray = [dirPath, recordingName]
 		let filePath = URL(string: pathArray.joined(separator: "/"))
 
 		let session = AVAudioSession.sharedInstance()
-		try! session.setCategory(AVAudioSessionCategoryPlayAndRecord, with:AVAudioSessionCategoryOptions.defaultToSpeaker)
+		try? session.setCategory(AVAudioSessionCategoryPlayAndRecord, with:AVAudioSessionCategoryOptions.defaultToSpeaker)
 
-		try! audioRecorder = AVAudioRecorder(url: filePath!, settings: [:])
+		try? audioRecorder = AVAudioRecorder(url: filePath!, settings: [:])
 		audioRecorder.delegate = self
 		audioRecorder.isMeteringEnabled = true
 		audioRecorder.prepareToRecord()
@@ -44,7 +44,7 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
 
 		audioRecorder.stop()
 		let audioSession = AVAudioSession.sharedInstance()
-		try! audioSession.setActive(false)
+		try? audioSession.setActive(false)
 	}
 
 	// Called after the controller's view is loaded into memory.
@@ -56,9 +56,9 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
 	// Notifies the view controller that a segue is about to be performed.
 	override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 		if segue.identifier == "stopRecordingSegue" {
-			let playAudioVC = segue.destination as! PlaySoundsViewController
-			let recordedAudioURL = sender as! URL
-			playAudioVC.recordedAudioURL = recordedAudioURL
+			let playAudioVC = segue.destination as? PlaySoundsViewController
+			let recordedAudioURL = sender as? URL
+            playAudioVC?.recordedAudioURL = recordedAudioURL
 		}
 	}
 
@@ -85,4 +85,3 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
 		}
 	}
 }
-
