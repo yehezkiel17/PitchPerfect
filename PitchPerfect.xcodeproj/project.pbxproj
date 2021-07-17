@@ -17,9 +17,6 @@
 		9CCC671C2082F86700B7F6F1 /* PitchPerfectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCC671B2082F86700B7F6F1 /* PitchPerfectTests.swift */; };
 		9CCC67272082F86700B7F6F1 /* PitchPerfectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCC67262082F86700B7F6F1 /* PitchPerfectUITests.swift */; };
 		9CCC67352083665000B7F6F1 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCC67342083665000B7F6F1 /* PlaySoundsViewController.swift */; };
-		D153D49A3254FAD96DEA34B8 /* Pods_PitchPerfectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC13883FD5B5A1AECD5D5618 /* Pods_PitchPerfectTests.framework */; };
-		E3CCA5EE3B183AAEC561F5C5 /* Pods_PitchPerfect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0275684844F080172C4528FC /* Pods_PitchPerfect.framework */; };
-		F8DA657FA17AAA1BFCECAA29 /* Pods_PitchPerfectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9213F4DF08928C92729360C2 /* Pods_PitchPerfectUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,11 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0275684844F080172C4528FC /* Pods_PitchPerfect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PitchPerfect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		58A94E60F9D7D7442FD3B343 /* Pods-PitchPerfectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PitchPerfectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PitchPerfectTests/Pods-PitchPerfectTests.release.xcconfig"; sourceTree = "<group>"; };
-		591C1C25A297C9C5489E4E4D /* Pods-PitchPerfect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PitchPerfect.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PitchPerfect/Pods-PitchPerfect.debug.xcconfig"; sourceTree = "<group>"; };
-		8FC1C24930410B0C7AF87E58 /* Pods-PitchPerfectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PitchPerfectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PitchPerfectTests/Pods-PitchPerfectTests.debug.xcconfig"; sourceTree = "<group>"; };
-		9213F4DF08928C92729360C2 /* Pods_PitchPerfectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PitchPerfectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C5495CE2083B89A00CF5C67 /* PlaySoundsViewController+Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlaySoundsViewController+Swift.swift"; sourceTree = "<group>"; };
 		9CCC67002082F86300B7F6F1 /* PitchPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CCC67032082F86400B7F6F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -61,10 +53,6 @@
 		9CCC67262082F86700B7F6F1 /* PitchPerfectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchPerfectUITests.swift; sourceTree = "<group>"; };
 		9CCC67282082F86700B7F6F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CCC67342083665000B7F6F1 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
-		AC13883FD5B5A1AECD5D5618 /* Pods_PitchPerfectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PitchPerfectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B239E895217BFCCBA79B52C2 /* Pods-PitchPerfectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PitchPerfectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PitchPerfectUITests/Pods-PitchPerfectUITests.release.xcconfig"; sourceTree = "<group>"; };
-		B722F2F95C8B40CBADF68485 /* Pods-PitchPerfect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PitchPerfect.release.xcconfig"; path = "Pods/Target Support Files/Pods-PitchPerfect/Pods-PitchPerfect.release.xcconfig"; sourceTree = "<group>"; };
-		E71B23E2A5802BD368547A4A /* Pods-PitchPerfectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PitchPerfectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PitchPerfectUITests/Pods-PitchPerfectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +60,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3CCA5EE3B183AAEC561F5C5 /* Pods_PitchPerfect.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,7 +67,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D153D49A3254FAD96DEA34B8 /* Pods_PitchPerfectTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,23 +74,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8DA657FA17AAA1BFCECAA29 /* Pods_PitchPerfectUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		085EB4FF0BFC8580FF2BD81A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				0275684844F080172C4528FC /* Pods_PitchPerfect.framework */,
-				AC13883FD5B5A1AECD5D5618 /* Pods_PitchPerfectTests.framework */,
-				9213F4DF08928C92729360C2 /* Pods_PitchPerfectUITests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		9C5495CD2083B86500CF5C67 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -120,8 +95,6 @@
 				9CCC671A2082F86700B7F6F1 /* PitchPerfectTests */,
 				9CCC67252082F86700B7F6F1 /* PitchPerfectUITests */,
 				9CCC67012082F86300B7F6F1 /* Products */,
-				FBE1DAE202EEB95DA37E8B81 /* Pods */,
-				085EB4FF0BFC8580FF2BD81A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -185,19 +158,6 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		FBE1DAE202EEB95DA37E8B81 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				591C1C25A297C9C5489E4E4D /* Pods-PitchPerfect.debug.xcconfig */,
-				B722F2F95C8B40CBADF68485 /* Pods-PitchPerfect.release.xcconfig */,
-				8FC1C24930410B0C7AF87E58 /* Pods-PitchPerfectTests.debug.xcconfig */,
-				58A94E60F9D7D7442FD3B343 /* Pods-PitchPerfectTests.release.xcconfig */,
-				E71B23E2A5802BD368547A4A /* Pods-PitchPerfectUITests.debug.xcconfig */,
-				B239E895217BFCCBA79B52C2 /* Pods-PitchPerfectUITests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -205,7 +165,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CCC672B2082F86700B7F6F1 /* Build configuration list for PBXNativeTarget "PitchPerfect" */;
 			buildPhases = (
-				41562DE911625E8C8C981FAE /* [CP] Check Pods Manifest.lock */,
 				9CCC66FC2082F86300B7F6F1 /* Sources */,
 				9CCC66FD2082F86300B7F6F1 /* Frameworks */,
 				9CCC66FE2082F86300B7F6F1 /* Resources */,
@@ -224,7 +183,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CCC672E2082F86700B7F6F1 /* Build configuration list for PBXNativeTarget "PitchPerfectTests" */;
 			buildPhases = (
-				32A150A533EFD0DEC8486B7F /* [CP] Check Pods Manifest.lock */,
 				9CCC67132082F86700B7F6F1 /* Sources */,
 				9CCC67142082F86700B7F6F1 /* Frameworks */,
 				9CCC67152082F86700B7F6F1 /* Resources */,
@@ -243,7 +201,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CCC67312082F86700B7F6F1 /* Build configuration list for PBXNativeTarget "PitchPerfectUITests" */;
 			buildPhases = (
-				7C5A7CB43BD4F0D0132DCB59 /* [CP] Check Pods Manifest.lock */,
 				9CCC671E2082F86700B7F6F1 /* Sources */,
 				9CCC671F2082F86700B7F6F1 /* Frameworks */,
 				9CCC67202082F86700B7F6F1 /* Resources */,
@@ -265,7 +222,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1250;
 				ORGANIZATIONNAME = AIMSIS;
 				TargetAttributes = {
 					9CCC66FF2082F86300B7F6F1 = {
@@ -332,88 +289,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		32A150A533EFD0DEC8486B7F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PitchPerfectTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		41562DE911625E8C8C981FAE /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PitchPerfect-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		6B63B58422D0599100DB79C6 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-			);
-			outputFileListPaths = (
 			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
-		};
-		7C5A7CB43BD4F0D0132DCB59 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PitchPerfectUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -507,6 +394,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -532,7 +420,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -567,6 +455,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -586,7 +475,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -597,19 +486,19 @@
 		};
 		9CCC672C2082F86700B7F6F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 591C1C25A297C9C5489E4E4D /* Pods-PitchPerfect.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SBK2FUUPNT;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = LQ7GB9S9DF;
 				INFOPLIST_FILE = PitchPerfect/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.udacity.yehezkiel.PitchPerfect;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yehezkiel.PitchPerfect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "PitchPerfect Provisioning Profile";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -617,19 +506,19 @@
 		};
 		9CCC672D2082F86700B7F6F1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B722F2F95C8B40CBADF68485 /* Pods-PitchPerfect.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SBK2FUUPNT;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = LQ7GB9S9DF;
 				INFOPLIST_FILE = PitchPerfect/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.udacity.yehezkiel.PitchPerfect;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yehezkiel.PitchPerfect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "PitchPerfect Provisioning Profile";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -637,7 +526,6 @@
 		};
 		9CCC672F2082F86700B7F6F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8FC1C24930410B0C7AF87E58 /* Pods-PitchPerfectTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -659,7 +547,6 @@
 		};
 		9CCC67302082F86700B7F6F1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58A94E60F9D7D7442FD3B343 /* Pods-PitchPerfectTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -681,7 +568,6 @@
 		};
 		9CCC67322082F86700B7F6F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E71B23E2A5802BD368547A4A /* Pods-PitchPerfectUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -702,7 +588,6 @@
 		};
 		9CCC67332082F86700B7F6F1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B239E895217BFCCBA79B52C2 /* Pods-PitchPerfectUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
