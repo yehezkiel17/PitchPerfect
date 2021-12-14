@@ -63,6 +63,8 @@ public class PlaySoundsViewController: UIViewController {
 		super.viewDidLoad()
 		setupAudio()
 
+		title = "Record Sound"
+		
 		snailButton.imageView?.contentMode = .scaleAspectFit
 		chipmunkButton.imageView?.contentMode = .scaleAspectFit
 		rabbitButton.imageView?.contentMode = .scaleAspectFit
