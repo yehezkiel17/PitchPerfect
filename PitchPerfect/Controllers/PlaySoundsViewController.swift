@@ -63,6 +63,16 @@ public class PlaySoundsViewController: UIViewController {
 		super.viewDidLoad()
 		setupAudio()
 
+		setupImageView()
+	}
+
+	// Notifies the view controller that its view is about to be added to a view hierarchy.
+	public override func viewWillAppear(_ animated: Bool) {
+		super.viewWillAppear(animated)
+		configureUI(.notPlaying)
+	}
+	
+	func setupImageView() {
 		snailButton.imageView?.contentMode = .scaleAspectFit
 		chipmunkButton.imageView?.contentMode = .scaleAspectFit
 		rabbitButton.imageView?.contentMode = .scaleAspectFit
@@ -70,11 +80,5 @@ public class PlaySoundsViewController: UIViewController {
 		echoButton.imageView?.contentMode = .scaleAspectFit
 		reverbButton.imageView?.contentMode = .scaleAspectFit
 		stopButton.imageView?.contentMode = .scaleAspectFit
-	}
-
-	// Notifies the view controller that its view is about to be added to a view hierarchy.
-	public override func viewWillAppear(_ animated: Bool) {
-		super.viewWillAppear(animated)
-		configureUI(.notPlaying)
 	}
 }
