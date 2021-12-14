@@ -63,6 +63,8 @@ public class PlaySoundsViewController: UIViewController {
 		super.viewDidLoad()
 		setupAudio()
 
+		title = "Record Sound"
+
 		setupImageView()
 	}
 
